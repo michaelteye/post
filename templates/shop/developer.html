@@ -24,7 +24,7 @@
                     {% for transaction in statistics %}
                         <div class="box">
                             <div class="content">
-                                <p class="title is-medium">{{ transaction.game.title }}</p>
+                                <h5 class="title is-medium">{{ transaction.game.title }}</h5>
                                 <p class="subtitle is-small">Buyer: {{ transaction.player.user }}</p>
                                 <p class="subtitle is-small">Time: {{ transaction.timestamp }}</p>
                                 <p class="subtitle is-small">Paid: {{ transaction.game.price }}€</p>
